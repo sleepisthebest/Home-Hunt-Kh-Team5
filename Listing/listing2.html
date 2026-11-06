@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="header-container">
+
+            <div class="logo">
+                <img src="/Listing/Images/logo-white.png" alt="Home Hunt KH">
+            </div>
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">Listings</a>
+                <a href="#" class="book-btn">Book Visit</a>
+            </nav>
+
+        </div>
+
+   </header>
+    
+    <Binner class="Img">
+
+        <div class="Title">
+                
+                <h1 class="Title-text"> Find Your Perfect Stay</h1>
+                <p class="Descip">Discover is the best house for rent in your favorite location</p>
+        </div> 
+
+        <div class="icon-service">
+
+                <div class="Icon-box1">
+                     
+                        <Icon class="Icon1"></Icon>
+                        <h5 class="Icon-text">Clear Price</h5>     
+                </div>
+
+                <div class="Icon-box2">
+
+                    <Icon class="Icon2"></Icon>
+                    <h5 class="Icon-text">Safaty</h5>
+
+                </div>
+
+                <div class="Icon-box3">
+
+                    <Icon class="Icon3"></Icon>
+                    <h5 class="Icon-text">Cozy</h5>
+                    
+                </div>
+        </div>
+
+    </Binner>
+
+    <section2 class="container">
+
+        <div class="filter-group">
+
+            <div class="title">
+
+                <h2>Filter</h2>
+                <h4><a href="">clear all</a></h4>
+
+            </div>
+
+            <div class="property-type">
+
+                <div class="icon-text">
+                    
+                    <div class="icon"><i class="fa-solid fa-house"></i></div>
+                    <p>Property Type</p>
+                </div>
+
+                <div class="select-page">
+
+                    <select class="select">
+
+                        <option>Room</option>
+
+                        <option>Studio</option>
+
+                        <option>Condo</option>
+
+                    </select>
+
+                </div>
+
+                <div class="icon-text">
+                    
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <p>Location</p>
+                </div>
+
+                <div class="select-page">
+
+                    <select class="select">
+
+                        <option>BKK1</option>
+
+                        <option>Sen Sok</option>
+
+                        <option>Toul Kork</option>
+
+                    </select>
+
+                </div>
+
+                    <div class="icon-text">
+                    
+                    <div class="icon"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+                    <p>Price</p>
+                </div>
+
+                    <div class="price-rage">
+
+                        <input type="number" class="price-min" placeholder="Min">
+
+                        <span class="Minus-sign"> — </span>
+
+                        <input type="number" class="price-max" placeholder="Max">
+
+                    </div>
+
+            </div>
+
+        </div>
+
+        <div class="House-Card">
+
+            <div class="card-row1">
+                
+                <div class="card">
+
+                    <div class="images">
+
+                        <span class="goal">For Rent</span>
+
+                        <img class="card-img" src="/Listing/Images/familycondo.jpg" alt="Condo">
+
+                    </div>
+
+                    <div class="text">
+
+                        <div class="Name"><span>Condo</span> <span>HH07</span></div>
+
+                        <h3 class="title">Family Condo</h3>
+
+                        <div class="info-line"><i class="fas fa-map-marker-alt"></i> Sen Sok</div>
+
+                        <div class="info-line"><i class="fas fa-dollar-sign"></i> 380/month</div>
+
+                        <div class="info-line"><i class="fas fa-bed"></i> 2 Bed &nbsp;&nbsp;&nbsp; <i class="fas fa-ruler-combined"></i> 60 m²</div>
+
+                        <div class="house-rule">House rule : No smoking, max 4people</div>
+                    </div>
+
+                    <button class="view-btn" onclick="window.location.href=''">View more details</button>
+
+                </div>
+
+                <!-- jol card ti2 -->
+            
+                <div class="card">
+
+                    <div class="images">
+
+                        <span class="goal">For Rent</span>
+
+                        <img class="card-img" src="/Listing/Images/Quiet.jpg" alt="Condo">
+
+                    </div>
+
+                    <div class="text">
+
+                        <div class="Name"><span>Room</span> <span>HH08</span></div>
+
+                        <h3 class="title">Quiet Room SenSok </h3>
+
+                        <div class="info-line"><i class="fas fa-map-marker-alt"></i> Sen Sok</div>
+
+                        <div class="info-line"><i class="fas fa-dollar-sign"></i> 110/month</div>
+
+                        <div class="info-line"><i class="fas fa-bed"></i> 2 Bed &nbsp;&nbsp;&nbsp; <i class="fas fa-ruler-combined"></i> 16 m²</div>
+
+                        <div class="house-rule"> Houe rule : No smoking, no pets,max 1 person</div>
+                    </div>
+
+                    <button class="view-btn" onclick="window.location.href=''">View more details</button>
+
+                </div>
+
+                <!-- jol card ti 3 -->
+
+                <div class="card">
+
+                    <div class="images">
+
+                        <span class="goal">For Rent</span>
+
+                        <img class="card-img" src="/Listing/Images/student.jpg" alt="Condo">
+
+                    </div>
+
+                    <div class="text">
+
+                        <div class="Name"><span>Room</span> <span>HH09</span></div>
+
+                        <h3 class="title">Student RoomnearAEON 2</h3>
+
+                        <div class="info-line"><i class="fas fa-map-marker-alt"></i> Sen Sok</div>
+
+                        <div class="info-line"><i class="fas fa-dollar-sign"></i> 140/month</div>
+
+                        <div class="info-line"><i class="fas fa-bed"></i> 2 Bed &nbsp;&nbsp;&nbsp; <i class="fas fa-ruler-combined"></i> 20 m²</div>
+
+                        <div class="house-rule">House rule : No smoking, quiet after10 pm, max 2 people</div>
+                    </div>
+
+                    <button class="view-btn" onclick="window.location.href=''">View more details</button>
+
+                </div>
+
+
+                
+
+            </div>
+
+            <!-- Dol card row 2 -->
+
+            <div class="card-row1">
+                
+                <div class="card">
+
+                    <div class="images">
+
+                        <span class="goal">For Rent</span>
+
+                        <img class="card-img" src="/Listing/Images/BrightStudio.jpg" alt="Condo">
+
+                    </div>
+
+                    <div class="text">
+
+                        <div class="Name"><span>Studio</span> <span>HH010</span></div>
+
+                        <h3 class="title">Bright Studio</h3>
+
+                        <div class="info-line"><i class="fas fa-map-marker-alt"></i> Sen Sok</div>
+
+                        <div class="info-line"><i class="fas fa-dollar-sign"></i>240/month</div>
+
+                        <div class="info-line"><i class="fas fa-bed"></i> 2 Bed &nbsp;&nbsp;&nbsp; <i class="fas fa-ruler-combined"></i> 40 m²</div>
+
+                        <div class="house-rule">House rule : No smoking, no parties,max 2 people</div>
+                    </div>
+
+                    <button class="view-btn" onclick="window.location.href=''">View more details</button>
+
+                </div>
+
+                <!-- jol card ti2 -->
+            
+                <div class="card">
+
+                    <div class="images">
+
+                        <span class="goal">For Rent</span>
+
+                        <img class="card-img" src="/Listing/Images/studio2.jpg" alt="Condo">
+
+                    </div>
+
+                    <div class="text">
+
+                        <div class="Name"><span>Studio</span> <span>HH05</span></div>
+
+                        <h3 class="title">Small studio</h3>
+
+                        <div class="info-line"><i class="fas fa-map-marker-alt"></i> BKK1</div>
+
+                        <div class="info-line"><i class="fas fa-dollar-sign"></i> 280/month</div>
+
+                        <div class="info-line"><i class="fas fa-bed"></i> 2 Bed &nbsp;&nbsp;&nbsp; <i class="fas fa-ruler-combined"></i> 25 m²</div>
+
+                        <div class="house-rule"> House rule : No smoking, no pets, max 2 people</div>
+                    </div>
+
+                    <button class="view-btn" onclick="window.location.href=''">View more details</button>
+
+                </div>
+
+                <!-- jol card ti 3 -->
+
+                      <div class="card">
+
+                    <div class="images">
+
+                        <span class="goal">For Rent</span>
+
+                        <img class="card-img" src="/Listing/Images/card3.jpg" alt="Condo">
+
+                    </div>
+
+                    <div class="text">
+
+                        <div class="Name"><span>Shered Room</span> <span>HH06</span></div>
+
+                        <h3 class="title">Shared Room for 2</h3>
+
+                        <div class="info-line"><i class="fas fa-map-marker-alt"></i> BKK1</div>
+
+                        <div class="info-line"><i class="fas fa-dollar-sign"></i> 120/month</div>
+
+                        <div class="info-line"><i class="fas fa-bed"></i> 2 Bed &nbsp;&nbsp;&nbsp; <i class="fas fa-ruler-combined"></i> 22 m²</div>
+
+                        <div class="house-rule">House rule : No smoking, quiet after 10 pm, women only</div>
+                    </div>
+
+                    <button class="view-btn" onclick="window.location.href=''">View more details</button>
+
+                </div>
+
+
+                
+
+            </div>
+
+                <div class="btm-box">
+
+                    <button class="box3" onclick="window.location.href='http://127.0.0.1:5500/Listing/Listing.html'"><i class="fa-solid fa-circle-left"></i></button>
+
+                    <button class="box1" onclick="window.location.href='http://127.0.0.1:5500/Listing/Listing.html'">1</button>
+
+                    <button class="box2" onclick="window.location.href=''">2</button>
+
+
+                </div>
+
+
+        </div>
+   
+    </section2>
+    
+    <footer class="footer">
+
+    <div class="box">
+
+        <div class="col brand">
+
+            <a href="/" class="logo">
+
+                <img src="/Footer/Images/logo-white.png" alt="Home Hunt KH Brand Logo" class="logo-text">
+
+            </a>
+
+            <p>Find Your Dream Home. Your trusted house rental platform in Cambodia.</p>
+
+            <div class="city">
+
+                <i class="fa-solid fa-city"></i>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+
+            <h3>Quick Links</h3>
+
+            <div class="line"></div>
+
+                <ul>
+
+                    <li><a href="#"><i class="fa-regular fa-circle-right"></i> Home</a></li>
+
+                    <li><a href="#"><i class="fa-regular fa-circle-right"></i> Listing</a></li>
+                    
+                    <li><a href="#"><i class="fa-regular fa-circle-right"></i> Book Visit</a></li>
+
+                </ul>
+        </div>
+
+        <div class="col">
+
+            <h3>Our Services</h3>
+
+            <div class="line"></div>
+
+            <ul>
+
+                <li><a href="#"><i class="fa-regular fa-circle-right"></i> House Rental</a></li>
+
+                <li><a href="#"><i class="fa-regular fa-circle-right"></i> Studio Rental</a></li>
+
+                <li><a href="#"><i class="fa-regular fa-circle-right"></i> Rooms Rental</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="col con">
+
+            <h3>Contact Us</h3>
+
+            <div class="line"></div>
+
+            <p><i class="fa-solid fa-phone"></i> +855 12 345 678</p>
+
+            <p><i class="fa-solid fa-envelope"></i> hello@homehuntkh.example</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> Street 315, Boeung Kak 2, Toul Kork, Phnom Penh</p>
+
+            <div class="social">
+
+                <a href="https://m.me/br.tina.413965"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="https://t.me/tina13122009"><i class="fa-brands fa-telegram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="btm">
+
+        <p>© 2026 Home Hunt KH</p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
