@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Hunt KH - Book a Visit</title>
+
+    <link rel="stylesheet" href="book.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+</head>
+<body>
+
+
+     <header class="header">
+    <div class="header-container">
+
+        <div class="logo">
+            <img src="/img/logo-white.png" alt="Home Hunt KH">
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="http://127.0.0.1:5500/Listing/Listing.html">Listings</a>
+            <a href="/bookvisit.html" class="book-btn">Book Visit</a>
+        </nav>
+
+    </div>
+</header>
+    
+    <section class="booking-section" id="booking">
+
+        <div class="container">
+
+            
+            <div class="left-content">
+
+                <h1>Book a Free Visit</h1>
+                <p class="subtitle">
+                    Choose a property and schedule a convenient time to visit.
+                </p>
+
+               
+                <div class="property-card" id="property">
+
+                    <div class="property-image">
+                        <img src="/img/photo_2026-10-21_15-27-33.jpg" alt="Modern House">
+
+                        <span class="visit-badge">
+                            <iconify-icon icon="solar:calendar-date-bold"></iconify-icon>
+                            FREE VISIT
+                        </span>
+                    </div>
+
+                    <div class="property-info">
+
+                        <div class="property-details">
+                            <p>
+                                <iconify-icon icon="solar:map-point-outline"></iconify-icon>
+                                Phnom Penh, Cambodia
+                            </p>
+
+                            <p>
+                                <iconify-icon icon="solar:home-2-outline"></iconify-icon>
+                                4 Beds ・ 3 Baths ・ 2 Floors
+                            </p>
+                        </div>
+
+                        <div class="price">
+                            <h3>$285.00</h3>
+                            <span>For rent</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-card">
+
+                <form id="bookingForm">
+
+                    <div class="form-grid">
+
+                        <div class="input-group">
+                            <label>
+                                <iconify-icon icon="solar:user-outline"></iconify-icon>
+                                Full Name
+                            </label>
+                            <input type="text" id="name"
+                                placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>
+                                <iconify-icon icon="solar:phone-outline"></iconify-icon>
+                                Phone Number
+                            </label>
+                            <input type="tel" id="phone"
+                                placeholder="Enter your phone number" required>
+                        </div>
+
+                        <div class="input-group full">
+                            <label>
+                                <iconify-icon icon="solar:home-2-outline"></iconify-icon>
+                                Select Property
+                            </label>
+
+                            <select id="propertyName" required>
+                                <option value="">Choose a property</option>
+                                <option>Modern House in Phnom Penh</option>
+                                <option>Modern Villa in Sen Sok</option>
+                                <option>Family House in Toul Kork</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label>
+                                <iconify-icon icon="solar:calendar-outline"></iconify-icon>
+                                Preferred Date
+                            </label>
+                            <input type="date" id="date" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>
+                                <iconify-icon icon="solar:clock-circle-outline"></iconify-icon>
+                                Preferred Time
+                            </label>
+
+                            <select id="time" required>
+                                <option value="">Select time</option>
+                                <option>08:00 AM - 09:00 AM</option>
+                                <option>09:00 AM - 10:00 AM</option>
+                                <option>10:00 AM - 11:00 AM</option>
+                                <option>11:00 AM - 12:00 PM</option>
+                                <option>01:00 PM - 02:00 PM</option>
+                                <option>02:00 PM - 03:00 PM</option>
+                                <option>03:00 PM - 04:00 PM</option>
+                                <option>04:00 PM - 05:00 PM</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group full">
+                            <label>
+                                <iconify-icon icon="solar:users-group-rounded-outline"></iconify-icon>
+                                Number of Visitors
+                            </label>
+
+                            <select id="visitors" required>
+                                <option value="">Choose visitors</option>
+                                <option>1 person</option>
+                                <option>2 people</option>
+                                <option>3 people</option>
+                                <option>4 people</option>
+                                <option>5 people</option>
+                                <option>6+ people</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="book-btn">
+                        <iconify-icon icon="solar:calendar-add-bold"></iconify-icon>
+                        Book Free Visit
+                    </button>
+
+                    <p class="form-note">
+                        No booking fee · We'll confirm your visit by phone
+                    </p>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="success-section" id="success">
+
+        <div class="success-card">
+
+            <div class="success-icon">
+                <iconify-icon icon="solar:check-read-bold"></iconify-icon>
+            </div>
+
+            <h2>Your Visit Is Booked!</h2>
+
+            <p class="success-subtitle">
+                Thank you for choosing Home Hunt KH.
+                We'll contact you to confirm the visit.
+            </p>
+
+            <hr>
+
+            <div class="booking-summary">
+
+                <img src="/img/photo_2026-10-21_15-27-33.jpg" alt="House">
+
+                <div class="summary-details">
+
+                    <p>
+                        <iconify-icon icon="solar:home-2-outline"></iconify-icon>
+                        Property:
+                        <span id="showProperty"></span>
+                    </p>
+
+                    <p>
+                        <iconify-icon icon="solar:calendar-outline"></iconify-icon>
+                        Date:
+                        <span id="showDate"></span>
+                    </p>
+
+                    <p>
+                        <iconify-icon icon="solar:clock-circle-outline"></iconify-icon>
+                        Time:
+                        <span id="showTime"></span>
+                    </p>
+
+                    <p>
+                        <iconify-icon icon="solar:users-group-rounded-outline"></iconify-icon>
+                        Visitors:
+                        <span id="showVisitors"></span>
+                    </p>
+
+                    <p>
+                        <iconify-icon icon="solar:phone-outline"></iconify-icon>
+                        Contact Number:
+                        <span id="showPhone"></span>
+                    </p>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="success-buttons">
+                <button onclick="goToListings()">
+                    <iconify-icon icon="solar:list-bold"></iconify-icon>
+                    View Listings
+                </button>
+
+                <button class="back-btn" onclick="goHome()">
+                    <iconify-icon icon="solar:home-outline"></iconify-icon>
+                    Back to Home
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+
+<footer class="footer">
+
+    <div class="box">
+
+        <div class="col brand">
+
+            <a href="/" class="logo">
+
+                <img src="/img/logo-white.png" alt="Home Hunt KH Brand Logo" class="logo-text">
+
+            </a>
+
+            <p>Find Your Dream Home. Your trusted house rental platform in Cambodia.</p>
+
+            <div class="city">
+
+                <i class="fa-solid fa-city"></i>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+
+            <h3>Quick Links</h3>
+
+            <div class="line"></div>
+
+                <ul>
+
+                    <li><a href="#"><i class="fa-regular fa-circle-right"></i> Home</a></li>
+
+                    <li><a href="#"><i class="fa-regular fa-circle-right"></i> Listing</a></li>
+                    
+                    <li><a href="#"><i class="fa-regular fa-circle-right"></i> Book Visit</a></li>
+
+                </ul>
+        </div>
+
+        <div class="col">
+
+            <h3>Our Services</h3>
+
+            <div class="line"></div>
+
+            <ul>
+
+                <li><a href="#"><i class="fa-regular fa-circle-right"></i> House Rental</a></li>
+
+                <li><a href="#"><i class="fa-regular fa-circle-right"></i> Studio Rental</a></li>
+
+                <li><a href="#"><i class="fa-regular fa-circle-right"></i> Rooms Rental</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="col con">
+
+            <h3>Contact Us</h3>
+
+            <div class="line"></div>
+
+            <p><i class="fa-solid fa-phone"></i> +855 12 345 678</p>
+
+            <p><i class="fa-solid fa-envelope"></i> hello@homehuntkh.example</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> Street 315, Boeung Kak 2, Toul Kork, Phnom Penh</p>
+
+            <div class="social">
+
+                <a href="https://m.me/br.tina.413965"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="https://t.me/tina13122009"><i class="fa-brands fa-telegram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="btm">
+
+        <p>© 2026 Home Hunt KH</p>
+
+    </div>
+
+</footer>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
