@@ -75,7 +75,7 @@
     width:100%;
     height: 450px;
     border:0px solid black;
-    background-image: url("/photo_2026-11-03_08-08-46.jpg");
+    background-image: url("/Home-Hunt-Kh-Team5/img2/photo_2026-11-03_08-05-35.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,7 +132,7 @@
     width: 50px;
     height: 50px;
     border:0px solid black;
-    background-image: url("/good.png");
+    background-image: url("/Home-Hunt-Kh-Team5/img2/Best\ price.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -158,7 +158,7 @@
     width: 50px;
     height: 50px;
     border:0px solid black;
-    background-image: url("/hand.png");
+    background-image: url("/Home-Hunt-Kh-Team5/img2/dg_ey_teh-removebg-preview.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -184,7 +184,7 @@
     width: 50px;
     height: 50px;
     border:0px solid black;
-    background-image: url("/saft.png");
+    background-image: url("/Home-Hunt-Kh-Team5/img2/safaty-removebg-preview.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -440,6 +440,61 @@ body {
     .property-image {
         height: 130px;
     }
+}
+
+.benefits {
+    padding: 80px 100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8faff;
+}
+
+.heading h1 {
+    font-size: 40px;
+    color: #183153;
+    margin-bottom: 15px;
+}
+
+.heading p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.benefits-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 35px 20px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #e0e8f0;
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 22px;
+    color: #183153;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
 }
 
 * {

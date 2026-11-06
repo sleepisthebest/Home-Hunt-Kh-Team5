@@ -239,13 +239,19 @@ button {
     align-items: center;
     gap: 12px;
     margin-bottom: 20px;
+    
 }
 
 .avatar {
     width: 45px;
     height: 45px;
     background: #cccccc;
+    border: 1px solid #dce9e7;
     border-radius: 50%;
+    background-image: url('/Home-Hunt-Kh-Team5/img2/photo_2025-02-10_11-52-51.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
 .agent b {
